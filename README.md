@@ -1,10 +1,19 @@
-# thetaapp
+# Theta App
 
-![sample image](doc/museum.jpg)
+![](doc/phone.jpg)
 
-## Ohh
+My final version of a Theta App.
 
-* list 1
-* list 2
+## Set Up
 
-### Ooo?
+To build this app I used ```Dart``` and ```Flutter```. I created Column and Row widgets to hold my image and various buttons.
+
+## Steps
+
+* Create basic Flutter app with ```Scaffold Widget```
+* Inside Scaffold make ```Column widget```
+* The first child of the Column is the ```Image Widget``` (I used an AssetImage)
+* The next 3 children are ```Row Widges```
+* Within each Row I created multiple ```FloatingActionButtons```
+
+[My Color Palette](https://colorhunt.co/palette/167377)
