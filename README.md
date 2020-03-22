@@ -2,7 +2,8 @@
 
 ![](doc/phone.jpg)
 
-My final version of a Theta App.
+My final version of a Theta App. This app only designs for the User Interface.
+The commands for the app are not applied yet.
 
 ## Set Up
 
