@@ -1,9 +1,11 @@
-# Theta App
+# RICOH THETA Mobile App GUI Design
 
 ![](doc/phone.jpg)
 
-My final version of a Theta App. This app only designs for the User Interface.
-The commands for the app are not applied yet.
+This app only shows the design for the User Interface.
+The commands for the app are not applied yet.  
+
+This was built by a teenage student for educational purposes. 
 
 ## Set Up
 
