@@ -15,9 +15,13 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blueGrey[50],
         body: SafeArea(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
           children: <Widget>[
             Image(image: AssetImage("doc/museum.jpg")),
+            SizedBox(
+              height: 30,
+            ),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
@@ -69,6 +73,18 @@ class MyApp extends StatelessWidget {
                 ),
               ],
             ),
+               SizedBox(height: 50),
+
+               RichText(
+                 text: TextSpan(
+                   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit,'
+                       ' sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+                       'Porta lorem mollis aliquam ut porttitor leo. In nisl nisi scelerisque eu ultrices vitae auctor eu. '
+                       'In cursus turpis massa tincidunt dui ut ornare lectus sit.',
+                   style: TextStyle(color: Color(0xff32afa9))
+                 ),
+
+            )
           ],
         )),
       ),
