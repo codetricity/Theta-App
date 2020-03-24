@@ -2,7 +2,7 @@ import 'dart:io';
 import 'dart:convert';
 import 'package:thetaapp/pretty_print.dart';
 
-void getInfo() async {
+Future<String> getInfo() async {
 
 
   // test data to return a single JSON objects from Internet
@@ -18,6 +18,7 @@ void getInfo() async {
   // transforms and prints the response
   await for (var contents in response.transform(Utf8Decoder())) {
     prettyPrint(contents.toString());
+    return contents.toString();
   }
 
 }
