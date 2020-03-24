@@ -2,8 +2,7 @@
 
 ![](doc/phone.jpg)
 
-This app only shows the design for the User Interface.
-The commands for the app are not applied yet.  
+The download button is not implemented.  The other buttons work with a RICOH THETA.  You connect your app to the camera in AP mode.
 
 This was built by a teenage student for educational purposes. 
 
